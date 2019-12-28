@@ -11,11 +11,28 @@ dotnet restore
 dotnet run
 ```
 
-Você pode executa-lo no Visual Studio ou no Visual Studio Code também.
+Você pode executá-lo no Visual Studio ou no Visual Studio Code também.
+
+## Build automático com docker
+
+Para rodar o projeto no docker basta executar os comandos a seguir dentro da pasta do projeto:
+
+```bash
+docker-compose build
+docker-compose up -d
+```
+
+Após os comandos executados, o projeto estará rodando na porta 5000.
+
+Para conferir se o container está em execução, basta executar o comando:
+
+```bash
+docker ps
+```
 
 ## Dependências
 
-Nesse projeto foram usadas duas dependencias:
+Nesse projeto foram usadas duas dependências:
 
 - AutoMapper - usado para mapear a entidade do Game para o Dto.
 

@@ -11,6 +11,8 @@ dotnet restore
 dotnet run
 ```
 
+Você pode executa-lo no Visual Studio ou no Visual Studio Code também.
+
 ## Dependências
 
 Nesse projeto foram usadas duas dependencias:
